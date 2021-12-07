@@ -5,10 +5,10 @@
   }
   
   body {
-    max-width: 120ch;
+    max-width: 140ch;
     min-width: 800px;
     margin: 20px auto;
-    padding: 20px;
+    padding: 10px;
     padding-bottom: 0;
     display: grid;
     grid-template: "header  header  header" "divider divider divider" "nav     main    sidebar" "footer  footer  footer"/200px 1fr 200px;
@@ -55,13 +55,13 @@
     background-color: #000;
     color: #fff;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 10px;
   }
   
   .logo {
     grid-area: logo;
     border: 3px solid #000;
-    padding: 10px 20px;
+    padding: 10px 10px;
     font-size: 2em;
     margin: 0;
     text-align: center;
@@ -81,21 +81,10 @@
   .secondary-nav {
     grid-area: nav;
     background-color: lightgray;
-    padding: 20px;
+    padding: 10px;
     flex-grow: 1;
   }
-  .secondary-nav ul {
-    list-style: none;
-    padding: 0;
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-  }
-  .secondary-nav li {
-    display: flex;
-    width: 100%;
-  }
+  
   .secondary-nav a {
     background: #fff;
     flex-grow: 1;
@@ -104,8 +93,8 @@
     justify-content: center;
     color: #000;
     text-decoration: none;
-    font-weight: bold;
-    padding: 28px 0;
+    font-weight: none;
+    padding: 10px 0;
   }
   
   main {
@@ -118,7 +107,7 @@
   aside {
     grid-area: sidebar;
     background: lightgray;
-    padding: 20px;
+    padding: 10px;
   }
   aside section {
     margin-bottom: 2.5em;
@@ -127,6 +116,10 @@
     margin: 0;
     margin-bottom: 0.5em;
     font-size: 1.2em;
+  }
+  
+  .share { 
+    flex-grow: 1;
   }
   
   .share ul {
@@ -138,22 +131,6 @@
     margin-top: 0.5em;
   }
   
-  .recommended ul {
-    list-style: none;
-    padding: 0;
-  }
-  .recommended li {
-    background: #fff;
-    padding: 10px;
-    margin-top: 10px;
-  }
-  .recommended h3 {
-    margin: 0;
-    margin-bottom: 0.5em;
-  }
-  .recommended p {
-    margin: 0;
-  }
   
   footer {
     grid-area: footer;
