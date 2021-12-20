@@ -6,7 +6,7 @@
   
   body {
     max-width: 240ch;
-    min-width: 1100px;
+    min-width: 800px;
     margin: 20px auto;
     padding: 10px;
     padding-bottom: 0;
@@ -174,3 +174,92 @@
     align-content: middle;
     vertical-align: middle;
   }
+
+
+ 
+
+@page
+  {margin:.75in .7in .75in .7in;
+  mso-header-margin:.3in;
+  mso-footer-margin:.3in;}
+tr
+  {mso-height-source:auto;}
+col
+  {mso-width-source:auto;}
+br
+  {mso-data-placement:same-cell;}
+.style0
+  {mso-number-format:General;
+  text-align:general;
+  vertical-align:bottom;
+  white-space:nowrap;
+  mso-rotate:0;
+  mso-background-source:auto;
+  mso-pattern:auto;
+  color:black;
+  font-size:12.0pt;
+  font-weight:400;
+  font-style:normal;
+  text-decoration:none;
+  font-family:"Trebuchet MS", sans-serif;
+  mso-font-charset:0;
+  border:none;
+  mso-protection:locked visible;
+  mso-style-name:Normal;
+  mso-style-id:0;}
+td
+  {mso-style-parent:style0;
+  padding-top:1px;
+  padding-right:1px;
+  padding-left:1px;
+  mso-ignore:padding;
+  color:black;
+  font-size:12.0pt;
+  font-weight:400;
+  font-style:normal;
+  text-decoration:none;
+  font-family:"Trebuchet MS", sans-serif;
+  mso-font-charset:0;
+  mso-number-format:General;
+  text-align:general;
+  vertical-align:bottom;
+  border:none;
+  mso-background-source:auto;
+  mso-pattern:auto;
+  mso-protection:locked visible;
+  white-space:nowrap;
+  mso-rotate:0;}
+.xl65
+  {mso-style-parent:style0;
+  mso-number-format:"0\.0000";
+  text-align:center;
+  border:.5pt solid windowtext;
+  background:#F4B0BA;
+  mso-pattern:black none;}
+.xl66
+  {mso-style-parent:style0;
+  font-weight:700;
+  text-align:center;
+  vertical-align:middle;
+  border:.5pt solid windowtext;}
+.xl67
+  {mso-style-parent:style0;
+  text-align:center;
+  border:.5pt solid windowtext;
+  background:#F4B0BA;
+  mso-pattern:black none;}
+.xl68
+  {mso-style-parent:style0;
+  font-style:italic;
+  text-align:center;
+  border:.5pt solid windowtext;
+  background:#D9E1F2;
+  mso-pattern:black none;}
+.xl69
+  {mso-style-parent:style0;
+  font-style:italic;
+  mso-number-format:"0\.0000";
+  text-align:center;
+  border:.5pt solid windowtext;
+  background:#D9E1F2;
+  mso-pattern:black none;}
