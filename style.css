@@ -5,8 +5,8 @@
   }
   
   body {
-    max-width: 140ch;
-    min-width: 800px;
+    max-width: 240ch;
+    min-width: 1100px;
     margin: 20px auto;
     padding: 10px;
     padding-bottom: 0;
@@ -168,4 +168,9 @@
   
   a {
     color: #000;
+  }
+
+  div{
+    align-content: middle;
+    vertical-align: middle;
   }
