@@ -263,3 +263,17 @@ td
   border:.5pt solid windowtext;
   background:#D9E1F2;
   mso-pattern:black none;}
+
+  .post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .post h2 {
+    margin-top: 0;
+  }
+  
+  .post p {
+    margin-bottom: 0;
+  }
