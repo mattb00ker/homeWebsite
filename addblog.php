@@ -7,7 +7,7 @@
 
 	<h1>Add New Post</h1>
 
-	<form method="post" action="add_post.php">
+	<form method="post" action="addPost.php">
 		<label for="title">Title:</label>
 		<input type="text" name="title" id="title"><br><br>
 
